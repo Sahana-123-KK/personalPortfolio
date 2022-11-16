@@ -26,7 +26,7 @@ const About = () => {
           <div className="exlist">
             <div className="list">
               <h2 className="listtitle">Kameleon Technologies</h2>
-              <p className="role">React Developer Intern.</p>
+              <p className="role">React Developer Internship</p>
             </div>
             <div className="list">
               <h2 className="listtitle">Tech Affairs Website IIITDM</h2>

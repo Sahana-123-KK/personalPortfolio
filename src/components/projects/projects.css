@@ -14,7 +14,7 @@
   justify-content: center;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
@@ -47,6 +47,7 @@ a{
 }
 .headpro {
   margin: 15px;
+  color: white;
 }
 .pros {
   overflow-y: scroll;

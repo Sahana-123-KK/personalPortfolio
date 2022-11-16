@@ -33,11 +33,19 @@ const Contact = () => {
         <h1 className="conheadleft">Let's Discuss your Project</h1>
         <div className="detailscon">
           <i className="bi bi-telephone-outbound"></i>
-          <p>+916383526812</p>
+          <p>
+            {" "}
+            <a href="tel:+916383526812">6383526812</a>{" "}
+          </p>
         </div>
         <div className="detailscon">
           <i className="bi bi-envelope"></i>
-          <p>saisahanaece2019@gmail.com</p>
+          <p>
+            {" "}
+            <a target="_blank" href="mailto: saisahanaece2019@gmail.com">
+              saisahanaece2019@gmail.com
+            </a>{" "}
+          </p>
         </div>
         <div className="detailscon">
           <i className="bi bi-geo-alt"></i>{" "}
@@ -56,7 +64,7 @@ const Contact = () => {
         <div className="formscontact">
           <form className="formclass" onSubmit={handleSubmit} ref={formRef}>
             <div className="mb-3">
-              <label for="name" className="form-label">
+              <label htmlFor="name" className="form-label">
                 Name
               </label>
               <input
@@ -68,7 +76,7 @@ const Contact = () => {
               />
             </div>
             <div className="mb-3">
-              <label for="subject" className="form-label">
+              <label htmlFor="subject" className="form-label">
                 Subject
               </label>
               <input
@@ -82,7 +90,7 @@ const Contact = () => {
             </div>
 
             <div className="mb-3">
-              <label for="email" className="form-label">
+              <label htmlFor="email" className="form-label">
                 Email address
               </label>
               <input
@@ -94,11 +102,11 @@ const Contact = () => {
                 aria-describedby="emailHelp"
               />
             </div>
-            <div class="mb-3">
-              <label for="message" class="form-label"></label>
+            <div className="mb-3">
+              <label htmlFor="message" className="form-label"></label>
               <textarea
                 name="message"
-                class="form-control"
+                className="form-control"
                 id="message"
                 rows="3"
               ></textarea>
@@ -107,7 +115,9 @@ const Contact = () => {
             <button type="submit" className="btn btnown">
               Submit
             </button>
-            <p className="returnmessage">{done && "Thank You..."}</p>
+            <p className="returnmessage">
+              {done && "Thank You,Will Contact Soon..."}
+            </p>
           </form>
         </div>
       </div>

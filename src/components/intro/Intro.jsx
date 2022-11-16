@@ -17,9 +17,9 @@ const Intro = () => {
             </div>
           </div>
           <div className="desc">
-            I am a Web Developer, a MERN Stack Developer, an Android Developer
-            too, I find Developing Websites so fun.If you guess need any help
-            just ping me.
+            I am a Web Developer, a MERN Stack Developer,I find Developing
+            Websites so funfilled.If you need any help or assistance just ping
+            me.
           </div>
           {/* <i className="bi bi-mouse-fill scroll"></i> */}
         </div>

@@ -18,9 +18,7 @@ const Projects = () => {
               Its a Portfolio website built on react
             </span>
             <img src={project} alt="" className="proimg" />
-            <a href="https://sahana-123-kk.github.io/portfolio/">
-              Here's my Work
-            </a>
+            <a href="#">The Page you are Viewing Now 😎</a>
             <span className="ptech">Technologies Used: HTML,CSS,React Js</span>
           </div>
           <div className="pro">
@@ -30,7 +28,10 @@ const Projects = () => {
               and like posts
             </span>
             <img src={project} alt="" className="proimg" />
-            <a href="https://github.com/Sahana-123-KK/Memories-App">
+            <a
+              target="_blank"
+              href="https://github.com/Sahana-123-KK/Memories-App"
+            >
               Here's my Work
             </a>
             <span className="ptech">
@@ -44,7 +45,10 @@ const Projects = () => {
               account,login,logout,create,update,delete and view their notes
             </span>
             <img src={project} alt="" className="proimg" />
-            <a href="https://github.com/Sahana-123-KK/INotebook-auth">
+            <a
+              target="_blank"
+              href="https://github.com/Sahana-123-KK/INotebook-auth"
+            >
               Here's my Work
             </a>
             <span className="ptech">
@@ -60,7 +64,10 @@ const Projects = () => {
               user.
             </span>
             <img src={project} alt="" className="proimg" />
-            <a href="https://github.com/Sahana-123-KK/Hotel-Booking-App">
+            <a
+              target="_blank"
+              href="https://github.com/Sahana-123-KK/Hotel-Booking-App"
+            >
               Here's my Work
             </a>
             <span className="ptech">
@@ -71,7 +78,10 @@ const Projects = () => {
             <h2 className="headpro">Restaurant Webiste</h2>
             <span className="pdesc">Restaurent Landing Page</span>
             <img src={project} alt="" className="proimg" />
-            <a href="My Restaurent.com (sahana-123-kk.github.io)">
+            <a
+              target="_blank"
+              href="https://sahana-123-kk.github.io/Restaurent-Website./"
+            >
               Here's my Work
             </a>
             <span className="ptech">Technologies Used: HTML,CSS</span>
@@ -80,7 +90,10 @@ const Projects = () => {
             <h2 className="headpro">College Website</h2>
             <span className="pdesc">College Website</span>
             <img src={project} alt="" className="proimg" />
-            <a href="https://sahana-123-kk.github.io/Admin-Page-IIITDM/">
+            <a
+              target="_blank"
+              href="https://sahana-123-kk.github.io/Admin-Page-IIITDM/"
+            >
               Here's my Work
             </a>
             <span className="ptech">Technologies Used: HTML,CSS,Bootstrap</span>
@@ -92,7 +105,7 @@ const Projects = () => {
               groups, and can send and read messages of fellow groupmates
             </span>
             <img src={project} alt="" className="proimg" />
-            <a href="https://github.com/Sahana-123-KK/chat-app">
+            <a target="_blank" href="https://github.com/Sahana-123-KK/chat-app">
               Here's my Work
             </a>
             <span className="ptech">
@@ -105,7 +118,10 @@ const Projects = () => {
               Music Player-Where users can play,pause,play next,previous music
             </span>
             <img src={project} alt="" className="proimg" />
-            <a href="https://sahana-123-kk.github.io/iSpotify-A-Music-App/">
+            <a
+              target="_blank"
+              href="https://sahana-123-kk.github.io/iSpotify-A-Music-App/"
+            >
               Here's my Work
             </a>
             <span className="ptech">
@@ -118,7 +134,7 @@ const Projects = () => {
               React Application where temperature of any city can be found
             </span>
             <img src={project} alt="" className="proimg" />
-            <a href="https://sahana-123-kk.github.io/iWeather/">
+            <a target="_blank" href="https://sahana-123-kk.github.io/iWeather/">
               Here's my Work
             </a>
             <span className="ptech">
@@ -130,6 +146,7 @@ const Projects = () => {
             <span className="pdesc">React Application,Todo List</span>
             <img src={project} alt="" className="proimg" />
             <a
+              target="_blank"
               href="https://sahana-123-kk.github.io/Todo-List/
 "
             >

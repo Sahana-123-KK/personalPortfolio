@@ -5,6 +5,9 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.detailscon a {
+  color: black;
+}
 .con-left {
   margin-left: 20px;
   width: 40%;
