@@ -6,15 +6,20 @@
   height: 100vh;
 }
 .p-left {
-  width: 45%;
+  width: 40%;
   /* background-color: red; */
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
+
+a{
+  text-decoration: none;
+  color: white;
+}
 .p-right {
-  width: 55%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
